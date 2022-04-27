@@ -12,6 +12,7 @@
             title = "label here" -->
 <!---secret comment-->
 <head>
+<link = rel = "stylesheet" href = "styles.css">
     <meta charset="utf-8">
     <title> A Valorant Webpage </title>
     <title> Team Too Intros </title>
