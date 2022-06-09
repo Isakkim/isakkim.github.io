@@ -1,46 +1,132 @@
+
 .maintext {
     text-align: left;
-    color:#232323;
-    font-size:64px;
+    color:#F3F3F3;
+    font-size:90px;
     font-weight:100px;
     font-family: 'Rubik', sans-serif;
-    margin-top:200px;
-    margin-left: 270px;
+    margin-top:250px;
+    margin-left: 350px;
 }
 .subtext {
     text-align: left;
-    color:#232323;
-    font-size:19px;
+    color:#F3F3F3;
+    font-size:25px;
     font-family: 'Rubik', sans-serif;
     font-weight:100;
-    margin-left:270px;
+    margin-left:350px;
     margin-right:270px;
-    margin-top:10px;
 }
 .button {
     font-size:14px;
     font-family: 'Rubik', sans-serif;
-    background-color: #E6E6FA;
-    padding: 12px 30px;
-    margin-left:270px;
+    color: #F3F3F3;
+    background-color: 	#4682b4;
+    padding: 25px 35px;
+    margin-left:350px;
     margin-right:270px;
-    margin-top:20px;
-    border-radius:12px;
+    margin-top:25px;
+    border-radius:35px;
 }
 .title {
-    text-align: left;
-    color:#232323;
-    font-size:40px;
+    text-align: center;
+    color:#F3F3F3;
+    font-size:60px;
     font-weight:100px;
     font-family: 'Rubik', sans-serif;
-    margin-top:60px;
-    margin-left: 80px;
+    margin-top:100px;
 }
 .container {
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 img {
-    width: 60%;
-    height:auto;
-    margin-top: 10px
+   max-width: 100%;
 }
+
+.projimage {
+    flex-basis: 140%;
+    margin-top: 80px;
+}
+
+body {
+    background-color: #232323 !important;
+}
+
+.lumictxt {
+    color:#F3F3F3;
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+    font-weight:100;
+    padding-left:300px;
+}
+
+.zillowtxt {
+    color: #f3f3f3;;
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+    font-weight:100;
+    padding-left:110px;
+    padding-top: 80px;
+}
+
+.monopolytxt {
+    color: #f3f3f3;;
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+    font-weight:100;
+    padding-left:200px;
+    padding-top: 80px;
+}
+
+.form-label {
+    color: #F3F3F3;
+    padding-top: 20px;
+}
+
+.contactstxt {
+    text-align: center;
+    color: #f3f3f3;
+    font-weight:100px;
+    font-family: 'Rubik', sans-serif;
+    padding-top: 130px;
+}
+
+.contact-box {
+    font-family: 'Rubik', sans-serif; 
+    padding: 10px 650px 50px 650px
+}
+
+.navbar {
+    font-family: 'Rubik', sans-serif; 
+}
+
+.fa {
+    padding: 28px;
+    font-size: 30px;
+    width: 75px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+
+
+  .fa-instagram {
+    background: #E1306C;
+    color: white;
+  }
+
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .social-links {
+    text-align: right;
+    margin-right: 140px;
+    margin-top: 180px;
+  }
